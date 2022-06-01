@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding-top: 0;
+}
+
+/* Header Start */
+
+header {
+    background-color: #01216914;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo {
+    width: 110px;
+    margin-left: 30px;
+}
+
+.header--items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.header--items a {
+    text-decoration: none;
+    color: #012169;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 17px;
+}
+
+.header--items a:hover {
+    color: #0070BA;
+}
+
+.header--buttons {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.header--buttons .button {
+    color: #012169;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    transition: all ease 0.5s;
+}
+
+.button--entrar{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header--buttons a:hover {
+    color: #0070BA;
+}
+
+.header--buttons button{
+    width: 127px;
+    height: 53px;
+    margin-left: 10px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    background: #012169;
+    color: #fff;
+    opacity: 1;
+    transition: all ease 0.5s;
+}
+
+.header--buttons button:hover {
+    opacity: 0.8;
+}
+
+/* Header End */
+
+/* Main Start */
+
+.conteudo--01{
+    display: flex;
+}
+
+.main--box--input {
+    width: 100%;
+    height: 189px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background: #012169;
+}
+
+.main--box--input input {
+    width: 510px;
+    height: 58px;
+    border-radius: 10px 0 0 10px;
+    background: #fff;
+}
+
+.btn--search {
+    width: 58px;
+    height: 63px;
+    margin-right: 65px;
+    padding: 15px 10px;
+    border-radius: 0 10px 10px 0;
+    color: #4e4cda;
+    background: #fff;
+}
+
+.ilustração {
+    margin-top: -100px;
+}
+
+.main--box--01{
+    display: flex;
+    align-items: center;
+    margin-left:  60px;
+    padding: 15px;
+    width: 665px;
+    height: 256px;
+    margin-top: 90px;
+    border-radius: 8px;
+    background: #012169;
+}
+
+.main--box--01 p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.conteudo--02{
+display: flex;
+}
+
+.main--box--02{
+width: 514px;
+height: 320px;
+margin-left: 50px;
+background: #0070BA;
+border-radius: 8px;
+}
+
+.main--box--02 p{
+    text-align: center;
+    margin: 15px;
+    text-align: justify;
+    font-weight: 400;
+    color: #fff;
+}
+
+.main--box--02 h1{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.img--02{
+    margin-left: 50px;
+}
+
+
+/* Main End */
+
+/* Footer Start */
+
+footer {
+    background-color: #1f449b;
+    font-family: 'Inter', sans-serif;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer--img {
+    width: 70px;
+    margin-left: 20px;
+}
+
+.footer--items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.footer--icons a {
+    color: #fff;
+}
+
+.footer--icons {
+    margin-left: 20px;
+}
+
+.footer--items a {
+    color: #fff;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.footer--items a:hover,
+.footer--icons a:hover {
+    color: #4e4cda;
+}
+
+/* Footer End */
