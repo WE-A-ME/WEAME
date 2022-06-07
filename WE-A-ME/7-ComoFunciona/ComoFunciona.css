@@ -112,7 +112,49 @@
     margin-top: 10em;
 }
 
-
+footer{
+    overflow: hidden;
+    border-top: solid 1px #000;
+    background-color: #01216914;
+  }
+  
+  .footer--topicos{
+    color: #0070BA;
+  }
+  
+  .footer--topicos a{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #0070BA
+  }
+  
+  .footer--topicos a:hover{
+    color: #0070ba;
+    text-decoration: underline;
+  }
+  
+  .footer--topicos h5{
+    font-size: 1em;
+  }
+  
+  .btn .btn-primary{
+    background: #2b60de;
+  }
+  .btn h5,p {
+    color: #0070BA
+  }
+  
+  .footer--topicos--copy p{
+    text-align: center;
+    margin-top: 1em;
+  }
+  
+  .footer--topicos--copy{
+    margin-top: 1em;
+  }
 
 
 
