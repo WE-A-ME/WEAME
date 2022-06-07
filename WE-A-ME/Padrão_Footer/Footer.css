@@ -6,7 +6,9 @@
 }
 
 footer{
-  background-color: #fff;
+  overflow: hidden;
+  border-top: solid 1px #000;
+  background-color: #01216914;
 }
 
 .footer--topicos{
