@@ -7,31 +7,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Footer.css">
     <script src="https://kit.fontawesome.com/9f4953c9b7.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Footer Padrão</title>
 </head>
 
 <body>
-    <footer>
-        <section>
-            <div class="footer--items">
-                <a href="#Inicio">Inicio</a>
-                <a href="#Categorias">Categorias</a>
-                <a href="#Para_Profissionais">Para Profissionais</a>
-                <div><img class="footer--img" src="img/img-rodape.png" alt=""></div>
-                <a href="#Suporte">Suporte</a>
-                <a href="#Como_Funciona">Como Funciona</a>
-                <a href="#Sobre_nos">Sobre nos</a>
+
+    <div class="container-">
+        <footer class=" p-2">
+            <div class="row text-center">
+                
+                <div>
+                    <a href="../1-Index/index.html"><img  src="img/img-rodape.png" alt="" style="width: 10%;"></a>
+                </div>
+
+                <div class="footer--topicos col-3">
+                    <h5>Como Funciona</h5>
+
+                    <a href="#">Oque você precisa saber
+                        ?</a>
+                    <a href="#">Como Avaliar</a>
+                    <a href="#">Como ser Parceiro</a>
+                    <a href="#">Contratos</a>
+
+                </div>
+
+
+                <div class="footer--topicos col-2">
+                    <h5>Categorias</h5>
+
+                    <a href="#Reformas e Reparos">Reformas
+                        e Reparos</a>
+                    <a href="#Saude & Beleza">Saúde &
+                        Beleza</a>
+                    <a href="#Auto">Auto</a>
+                    <a href="#Moda">Moda</a>
+                    <a href="#Limpeza" class=>Limpeza</a>
+
+                </div>
+
+                <div class="footer--topicos col-3">
+                    <h5>Para Profissionais</h5>
+
+                    <a href="#">Como se Cadastrar!</a>
+                    <a href="#">Iniciar Cadastro</a>
+
+                </div>
+
+                <div class="btn col-4">
+                    <form>
+                        <h5>Entre em contato !</h5>
+                        <p>Alguma duvida ou sugestão ? </p>
+                        <div class="d-flex w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Digite Aqui !">
+                            <button class="btn btn-primary" type="button">Enviar</button>
+                        </div>
+                    </form>
+                </div>
             </div>
 
-            <div class="footer--icons">
-                <a href="#facebook"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#instagram"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#github"><i class="fa-brands fa-github"></i></a>
-                
+            <div class="footer--topicos--copy border-top">
+                <p>&copy; 2022 We-A-Me.Todos Direitos Reservado.</p>
+
             </div>
-        </section>
-    </footer>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
