@@ -169,50 +169,48 @@ border-radius: 8px;
 
 /* Footer Start */
 
-footer {
-    background-color: #1f449b;
-    font-family: 'Inter', sans-serif;
-}
-
-section {
+footer{
+    overflow: hidden;
+    border-top: solid 1px #000;
+    background-color: #01216914;
+  }
+  
+  .footer--topicos{
+    color: #0070BA;
+  }
+  
+  .footer--topicos a{
     display: flex;
-    align-items: center;
     justify-content: center;
-    text-align: center;
-}
-
-.footer--img {
-    width: 70px;
-    margin-left: 20px;
-}
-
-.footer--items {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 17px;
-    font-weight: 600;
-
-}
-
-.footer--icons a {
-    color: #fff;
-}
-
-.footer--icons {
-    margin-left: 20px;
-}
-
-.footer--items a {
-    color: #fff;
-    margin: 15px;
+    margin-top: 0.5em;
+    font-size: 0.8em;
     text-decoration: none;
-}
-
-.footer--items a:hover,
-.footer--icons a:hover {
-    color: #4e4cda;
-}
+    color: #0070BA
+  }
+  
+  .footer--topicos a:hover{
+    color: #0070ba;
+    text-decoration: underline;
+  }
+  
+  .footer--topicos h5{
+    font-size: 1em;
+  }
+  
+  .btn .btn-primary{
+    background: #2b60de;
+  }
+  .btn h5,p {
+    color: #0070BA
+  }
+  
+  .footer--topicos--copy p{
+    text-align: center;
+    margin-top: 1em;
+  }
+  
+  .footer--topicos--copy{
+    margin-top: 1em;
+  }
 
 /* Footer End */
