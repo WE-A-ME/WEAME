@@ -111,7 +111,9 @@
     color: #012169;
 }
 
-
+.card .card-body img{
+    border: #012169;
+}
 
 
 
