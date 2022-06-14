@@ -75,8 +75,8 @@ color: #000;
 }
 
 .lorem{
-    width: 700px;
-    height: 700px;
+    /* width: 700px;
+    height: 700px; */
     font-family:'Inter', sans-serif;
     font-style:bold;
     font-weight: 450;
